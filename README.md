@@ -20,7 +20,7 @@ cd AttilaDesk-AuditLog
 composer install
 cp .env.example .env
 php artisan key:generate
-
+``` 
 ## 🚀 Használati módok
 Folyamatos figyelés – automatikusan olvassa az app.log fájlt
 
