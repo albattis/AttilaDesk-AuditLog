@@ -20,3 +20,24 @@ cd AttilaDesk-AuditLog
 composer install
 cp .env.example .env
 php artisan key:generate
+
+## 🚀 Használati módok
+Folyamatos figyelés – automatikusan olvassa az app.log fájlt
+
+Feltöltés alapú elemzés – bármilyen naplófájl behúzása
+
+API mód – integrálható más rendszerekbe
+
+## 📋 Jövőbeli tervek
+Jogosultságkezelés beépítése
+
+Grafikonos statisztikák (pl. log típusonként)
+
+Email/SMS értesítés kritikus hibák esetén
+
+## 🤝 Közreműködés
+Szívesen fogadunk PR-eket, ötleteket, hibajegyeket!
+
+## 📜 Licenc
+MIT
+
