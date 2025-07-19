@@ -18,7 +18,7 @@ return [
     |
     */
 
-    'default' => env('LOG_CHANNEL', 'stack'),
+    'default' => env('LOG_CHANNEL', 'daily'),
 
     /*
     |--------------------------------------------------------------------------
@@ -126,6 +126,18 @@ return [
         'emergency' => [
             'path' => storage_path('logs/laravel.log'),
         ],
+        'audit' => [
+            'driver' => 'single',
+            'path' => storage_path('logs/audit.log'),
+            'level' => 'info',
+        ],
+
+        'security' => [
+            'driver' => 'single',
+            'path' => storage_path('logs/security.log'),
+            'level' => 'warning',
+        ],
+
 
     ],
 
