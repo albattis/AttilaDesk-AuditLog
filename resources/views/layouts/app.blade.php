@@ -17,7 +17,7 @@
     <title>Document</title>
 </head>
 <body class="bg-gray-100 text-gray-800">
-<div>Aktiális nyelv : <?= app()->getLocale()?></div>
+
 <header class="bg-white shadow p-4 flex justify-between items-center">
     <h1 class="text-2xl font-bold">{{ __('messages.title') }}</h1>
     <div>
