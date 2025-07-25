@@ -17,6 +17,6 @@ class FileStorageService implements FileStorageInterface
     public function fileSaveStorage(UploadedFile $file): bool
     {
         $filename=now()->format('Ymd_His').' '.$file->getClientOriginalName();
-        return $file->storeAs('logs/uploads',$filename)?: null;
+        return $file->storeAs('logs/uploads',$filename);
     }
 }
